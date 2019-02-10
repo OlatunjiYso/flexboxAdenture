@@ -3,7 +3,8 @@ article {
   display: flex;
   flex-direction: column;
  justify-content: center;
-  width: 320px;
+ align-items: baseline;
+  width: 400px;
   height: 800px;
  }
 
