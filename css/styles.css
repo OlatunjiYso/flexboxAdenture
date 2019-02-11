@@ -1,17 +1,22 @@
-article {
-  border: 1px solid #d1eda6;
+.boxes {
   display: flex;
   flex-direction: column;
- justify-content: center;
- align-items: baseline;
-  width: 400px;
-  height: 800px;
- }
+  align-items: center;
+  
+}
 
- .content {
-   width: 200px;
- }
+.one, .two, .three {
+  height: 200px;
+  width: 200px;
+  margin: 12px soild green;
+  background-color: rgb(137, 191, 238);
+  margin: 9px;
+}
+.one, .three {
+ background-color: rgb(8, 21, 32);
+}
 
- img {
-   width: 150px;
- }
+
+
+
+
